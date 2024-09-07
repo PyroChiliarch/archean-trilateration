@@ -8,14 +8,14 @@ var $start_pos = ".x{0}.y{0}.z{0}"
 ; The last fourth beacon, place it as high as you can
 
 ; distance from beacon_0 to beacon_1 etc...
-var $beacon_0_to_1 = 26641.979333
+var $beacon_0_to_1 = 0
 	
-var $beacon_0_to_2 = 17972.948552
-var $beacon_1_to_2 = 30499.834608
+var $beacon_0_to_2 = 0
+var $beacon_1_to_2 = 0
 	
-var $beacon_0_to_3 = 100
-var $beacon_1_to_3 = 200
-var $beacon_2_to_3 = 300
+var $beacon_0_to_3 = 0
+var $beacon_1_to_3 = 0
+var $beacon_2_to_3 = 0
 
 
 init
