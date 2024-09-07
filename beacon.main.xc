@@ -4,7 +4,7 @@ const $y = 0
 const $z = 6203001.859879
 
 ; Beacons channel
-; Mine are named after NASA's near space network
+; Mine are named after NASAs near space network
 const $send_channel = "nsn_0"
 
 
