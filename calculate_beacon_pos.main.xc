@@ -5,7 +5,9 @@ var $start_pos = ".x{0}.y{0}.z{0}"
 	
 ; These are the distances between the beacons, put your measurements in here
 ; you dont need to, but it is recommended you place you first 3 beacons at sea level on even ground, at the same height
+; The last fourth beacon, place it as high as you can
 
+; distance from beacon_0 to beacon_1 etc...
 var $beacon_0_to_1 = 26641.979333
 	
 var $beacon_0_to_2 = 17972.948552
