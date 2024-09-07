@@ -154,7 +154,7 @@ function @trilat_3d_basic($options:text):text
 
 	
 	; Do the iterations
-	var $weight = 0.1 ; changin this doesn't do much, gets updated every iteration
+	var $weight = 0.1 ; changin this doesnt do much, gets updated every iteration
 	var $i = 0
 	while $i < $options.max_iterations
 		$total_iterations += 1
