@@ -8,7 +8,7 @@ const $z = 6203001.859879
 const $send_channel = "nsn_0"
 
 
-update
+init 
 	
 	; Prepare data for transmission
 	var $data = ""
@@ -19,6 +19,7 @@ update
 	; Add extra values to data here
 	; eg
 	; $data.battery = input_number("batt", 0)
+	; If you want extra data, change init to "timer interval 5" or similar
 	
 	
 	; Transmit data
