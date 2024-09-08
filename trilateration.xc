@@ -32,9 +32,6 @@ function @trilat_calc_error($guess:text):number
 		
 	return $error / $trilat_beacons.size
 
-function @trilat_3d_nelder_mead($options:text):text
-
-
 
 function @trilat_3d_basic($options:text):text
 	; Trilateration as an optimization problem, calculates pos with error
