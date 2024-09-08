@@ -79,7 +79,9 @@ function @trilat_3d_basic($options:text):text
 	; Skip optimization algo if last result error is low enough
 	; Stops processing if vehicle is stopped
 	if @trilat_calc_error($results_history.0) < 0.05
-		return $results_history.0
+		$guess = $results_history.0
+		$guess.iterations = $total_iterations
+		return $guess
 	
 	
 	
