@@ -74,7 +74,6 @@ function @trilat_3d_basic($options:text):text
 	
 	var $test = $results_history.0
 	$test.x += 1000
-	print("hmm", @trilat_calc_error($test))	
 	
 	
 	; Skip optimization algo if last result error is low enough
